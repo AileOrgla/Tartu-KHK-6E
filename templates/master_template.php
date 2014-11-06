@@ -10,8 +10,9 @@
 
 	<title><?=PROJECT_NAME?></title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="assets/components/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/components/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/components/bootstrap/3.3.0/css/style.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
 	<style>
@@ -45,9 +46,11 @@
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li <?= $controller == 'welcome' ? 'class="active"' : ''?>"><a href="welcome">Avaleht</a></li>
+				<li <?= $controller == 'about' ? 'class="active"' : ''?>"><a href="about">Meist</a></li>
+				<li <?= $controller == 'calendar' ? 'class="active"' : ''?>"><a href="calendar">Kalender</a></li>
+				<li <?= $controller == 'gallery' ? 'class="active"' : ''?>"><a href="gallery">Galerii</a></li>
+				<li <?= $controller == 'contact' ? 'class="active"' : ''?>"><a href="contact">Kontakt</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 					<ul class="dropdown-menu">
@@ -67,8 +70,8 @@
 
 <div class="container">
 <div class="row">
-    <div class="col-md-3 sm-hidden">
-        tere
+    <div class="col-md-3 hidden-sm" style="background-color: rgba(0, 136, 203, 0.74902);">
+       tere
     </div>
     <div class="col-md-9">
         <!-- Main component for a primary marketing message or call to action -->
