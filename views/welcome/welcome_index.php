@@ -7,7 +7,6 @@
             <hr/>
             <h2>Õpilasesindus</h2> ​​
             <p>Koosneb 9-liikmelisest juhatusest ja 27 lihtliikmest.</p>
-            <hr/>
         </div>
         <div class="col-md-1"></div>
     </div>
