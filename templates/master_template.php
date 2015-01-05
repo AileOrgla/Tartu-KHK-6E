@@ -51,6 +51,7 @@
                 <li <?= $controller == 'calendar' ? 'class="active"' : '' ?>"><a href="calendar">Kalender</a></li>
                 <li <?= $controller == 'gallery' ? 'class="active"' : '' ?>"><a href="gallery">Galerii</a></li>
                 <li <?= $controller == 'contact' ? 'class="active"' : '' ?>"><a href="contact">Kontakt</a></li>
+                <li <?= $controller == 'feedback' ? 'class="active"' : '' ?>"><a href="feedback">Tagasiside</a></li>
                 <!--
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
